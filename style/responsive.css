@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
     nav,
     .nav-logo,
     .nav-menu-items,
@@ -86,10 +86,12 @@
     }
     .games
         {
-            /* display: flex;
-            flex-wrap: wrap; */
+            display: flex;
+            flex-wrap: wrap;
             display: flex;
             flex-direction: row;
+
+
 
         }
   
@@ -102,4 +104,5 @@
             width:800px;
         }
 
-}
+} */
+

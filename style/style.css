@@ -30,7 +30,7 @@ body{
 .title-text{
     font-size: 48px;
     font-weight: 700;
-    width:100%;
+    margin:0;
     }
 
 
@@ -47,7 +47,6 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    width:100%;
 }
 
 
@@ -94,7 +93,6 @@ nav{
     display:flex;
     align-items:center;
     width:50%;
-    height:auto;
    
 
 }
@@ -288,9 +286,7 @@ line-height: 30px;
 
 .online-section{
     margin-top:120px;
-    margin:0;
-    width:100%;
-    text-align:center;
+    margin:auto;
 }
 
 .online-games{
@@ -373,7 +369,7 @@ line-height: 30px;
 .play-instantly{
     display:flex;
     justify-content:right;
-    width:100%;
+    width:auto;
     height:auto;
     margin: 120px 240px 0px 300px;
 }
@@ -413,7 +409,7 @@ line-height: 30px;
     justify-content:space-between;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     width: 1920px;
-    height: auto;
+    height: 871px;
 }
 
 .careers-text-section{
@@ -480,7 +476,7 @@ margin-top:24px;
     display:flex;
     padding:120px 175px 120px 175px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    height:auto;
+    height:1000px;
 }
 
 .games{
@@ -488,16 +484,16 @@ margin-top:24px;
     justify-content:center;
     align-items:center;
     flex-wrap: wrap;
-    /* width: auto; */
+    width: 1920px;
     height: auto;
 }
 
 
 .rectangle {
-    /* display:flex;
-    justify-content:start; */
+    display:flex;
+    justify-content:start;
     padding:5px;
-    /* align-items:center; */
+    align-items:center;
     text-align:center;
     margin-right:5px;
     height: 80px;
@@ -601,8 +597,9 @@ margin-top:24px;
 }
 
 .fa-snapchat{
-    font-size:40px;
+    font-size:45px;
     color:#FFFFFF;
+
 }
 
 .fa-linkedin-in{
