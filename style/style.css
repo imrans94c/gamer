@@ -30,7 +30,7 @@ body{
 .title-text{
     font-size: 48px;
     font-weight: 700;
-    margin:0;
+    margin:0px;
     }
 
 
@@ -58,8 +58,7 @@ nav{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     width: 1920px;
-    /* height: 130px; */
-    height:auto;
+    height: 130px;
 
 }
 
@@ -68,7 +67,6 @@ nav{
     align-items:center;
     width:50%;
     margin-left:240px;
-    height:auto;
 }
 
 .nav-logo h2{
@@ -152,8 +150,7 @@ nav{
 
 .banner{
     display:flex;
-    width: 1920px;
-    height:auto;
+
 }
 
 .banner-text-bG-image{
@@ -229,14 +226,14 @@ nav{
     align-items:center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     width: 1920px;
-    height: auto;
+    height: 600px;
 }
 
 
 
 .we-are-gamer-text{
     width:28%;
-    margin:auto;
+    margin-left:330;
    
 }
 
@@ -284,15 +281,9 @@ line-height: 30px;
 
 /* Online  Games style start */
 
-.online-section{
-    margin-top:120px;
-    margin:auto;
-}
-
 .online-games{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    width:auto;
     gap:5px;
     margin: 48px 240px 120px 240px;
 }
@@ -342,10 +333,10 @@ line-height: 30px;
     margin-bottom:250px;
     color: #FF42A5;
   } */
-
-  .iconplay{
+  
+  .fa-play{
     margin-top:150px;
-    color:#FFFFFF;
+    color:#FF42A5;
     font-size:30px;
   }
   
@@ -369,8 +360,7 @@ line-height: 30px;
 .play-instantly{
     display:flex;
     justify-content:right;
-    width:auto;
-    height:auto;
+    height:830px;
     margin: 120px 240px 0px 300px;
 }
 
@@ -415,7 +405,7 @@ line-height: 30px;
 .careers-text-section{
     margin-left:240px;
     margin-top:80px;
-    margin-bottom:100px; 
+    margin-bottom:100px;  
 }
 
 .careers-text-section h3{
@@ -476,7 +466,6 @@ margin-top:24px;
     display:flex;
     padding:120px 175px 120px 175px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    height:1000px;
 }
 
 .games{
@@ -485,7 +474,7 @@ margin-top:24px;
     align-items:center;
     flex-wrap: wrap;
     width: 1920px;
-    height: auto;
+    height: 427px;
 }
 
 
@@ -599,9 +588,7 @@ margin-top:24px;
 .fa-snapchat{
     font-size:45px;
     color:#FFFFFF;
-
 }
-
 .fa-linkedin-in{
     font-size:40px;
     color:#FFFFFF;
