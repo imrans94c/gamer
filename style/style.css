@@ -275,7 +275,7 @@ line-height: 30px;
 .play-instantly{
     display:flex;
     justify-content:right;
-    margin: 120px 240px 120px 300px;
+    margin: 120px 240px 0px 300px;
 }
 
 .play-instantly-text{
@@ -371,3 +371,47 @@ margin-top:24px;
     border:none;
 
 }
+
+.all-game{
+    display:flex;
+    /* flex-wrap: wrap; */
+    padding:120px 150px 120px 150px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.games{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    width: 1920px;
+    height: 427px;
+}
+
+
+.rectangle {
+    display:flex;
+    justify-content:start;
+    padding:10px;
+    align-items:center;
+    text-align:center;
+    margin-right:10px;
+    height: 80px;
+    width: 305px;
+    border:2px solid red;
+    background-color: #FFF;
+    border-radius: 50px;
+    background: #FFF;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    /* border:none; */
+  }
+
+  .rec-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right:10px;
+
+  }
