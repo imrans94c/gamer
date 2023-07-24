@@ -30,7 +30,7 @@ body{
 .title-text{
     font-size: 48px;
     font-weight: 700;
-    margin:0px;
+    width:100%;
     }
 
 
@@ -47,6 +47,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    /* width:100%; */
 }
 
 
@@ -55,18 +56,17 @@ body{
 nav{
     display:flex;
     justify-content:space-between;
+    align-items:center;
+    padding-left: 240px;
+    padding-right: 240px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    width: 1920px;
-    height: 130px;
-
+    height: 100px;
 }
 
 .nav-logo {
     display:flex;
     align-items:center;
-    width:50%;
-    margin-left:240px;
 }
 
 .nav-logo h2{
@@ -82,7 +82,6 @@ nav{
 
 .nav-logo img{
     margin-right:20px;
-    width: 86.041px;
     height: 40px;
     cursor: pointer;
 }
@@ -90,7 +89,7 @@ nav{
 .nav-menu-items{
     display:flex;
     align-items:center;
-    width:50%;
+    height:auto;
    
 
 }
@@ -150,18 +149,38 @@ nav{
 
 .banner{
     display:flex;
-
+    align-items: center;
+    margin: 0 auto;
+    /* justify-content:center; */
+    /* flex-direction: row-reverse; */
+    /* gap: 50px; */
+    /* height:auto; */
 }
+
+.banner-image img {
+    width: 100%;
+    margin:0 auto;
+}
+
+/* .banner-image{
+    width: 100%;
+} */
 
 .banner-text-bG-image{
     background-image:url('../assets/images/Group 14.png');
-    width:50%;
-    background-repeat: no-repeat;
+    background-position: center;
+    width: 901px;
+    height: 700px;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
+
+/* .banner-text{
+    text-align:center; 
+} */
 
 .banner-text h2{
     color: #0B0223;
@@ -172,7 +191,7 @@ nav{
 }
 
 .banner-text h1{
-    font-size: 95px;
+    font-size: 5rem;
     font-weight: 800;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -225,15 +244,15 @@ nav{
     justify-content:center;
     align-items:center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    width: 1920px;
-    height: 600px;
+    height: auto;
 }
 
 
 
+
 .we-are-gamer-text{
-    width:28%;
-    margin-left:330;
+ 
+    text-align: right;
    
 }
 
@@ -269,23 +288,30 @@ margin-top:95px;
 
 .we-are-gamer-text p{
 color: #534C64;
-text-align: right;
+
 font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 }
 
 .btnkow{
-    margin-left:330px;
+
 }
 
+
 /* Online  Games style start */
+
+.online-section{
+    margin-top:120px;
+    margin:0 auto;
+    text-align:center;
+}
 
 .online-games{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
-    gap:5px;
-    margin: 48px 240px 120px 240px;
+    height:auto;    
+    padding: 0 240px;
 }
 
 .card{
@@ -295,9 +321,10 @@ line-height: 30px;
     border-radius: 16px;
     margin-bottom:60px;
     position: relative;
+    margin: 0 auto;
 
 }
-/* ********* */
+/* ********* overlay ********* */
 
 .online-image {
     display: block;
@@ -308,8 +335,7 @@ line-height: 30px;
     position: absolute; 
     bottom: 0; 
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    /* color: #f1f1f1;  */
+    background: rgba(0, 0, 0, 0.5); 
     width: 100%;
     height:100%;
     transition: .5s ease;
@@ -329,14 +355,9 @@ line-height: 30px;
   }
 
 
-  /* .overlay h3{
-    margin-bottom:250px;
-    color: #FF42A5;
-  } */
-  
-  .fa-play{
+  .iconplay{
     margin-top:150px;
-    color:#FF42A5;
+    color:#FFFFFF;
     font-size:30px;
   }
   
@@ -360,18 +381,20 @@ line-height: 30px;
 .play-instantly{
     display:flex;
     justify-content:right;
-    height:830px;
-    margin: 120px 240px 0px 300px;
+    height:auto;
+    padding: 439px 240px 0px 240px;
 }
 
 .play-instantly-text{
-    width:30%;
+    /* width:30%; */
     text-align:right;
     margin-top:220px;
 }
 
 .play-intantly-image{
     width:70%;
+    height:auto;
+
 
 }
 
@@ -382,13 +405,14 @@ line-height: 30px;
 .image-two{
 
     border-radius: 8px;
-    width: 318.5px;
-    height: 365.083px;
+    width: 318px;
+    height: 365px;
     position: relative;
     bottom: 290px;
     margin-left:200px;
    
 }
+
 
 /* Careers style start */
 
@@ -396,16 +420,18 @@ line-height: 30px;
 
 .careers{
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    width: 1920px;
-    height: 871px;
+    margin:0 auto;
+    width: auto;
+    height: auto;
+    padding-left:240px;
 }
 
 .careers-text-section{
-    margin-left:240px;
-    margin-top:80px;
-    margin-bottom:100px;  
+
+    margin:0 auto;
+    width:50%;
 }
 
 .careers-text-section h3{
@@ -423,28 +449,27 @@ margin-bottom:32px;
 margin-top:24px;
 }
 
-.double-text{
-    display:flex;
-    gap:70px;
+
+.job-position-container {
+    margin-bottom: 50px;
+  }
+
+.job-position {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+  }
+  
+  .job-position > p {
+    font-size: larger;
+    font-weight: bold;
+  }
+
+
+
+.se-a-p{
+   text-align:left;
 }
-
-
-
-.text-one p{
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 40px; 
-}
-
-.text-two p{
-    text-align:right;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 40px; 
-}
-
 
 .see-a-p-btn{
     padding: 21px 40px;
@@ -457,15 +482,26 @@ margin-top:24px;
     text-transform: uppercase;
     border:none;
     cursor: pointer;
+}
 
+
+.image-text-section{
+    width: 50%;
+}
+
+.care-img{
+    width:100%;
+    
+    text-align:center;
 }
 
 /* Allgame section start */
 
 .all-game{
-    display:flex;
-    padding:120px 175px 120px 175px;
+    margin:0 auto;
+    width:100%;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    height:auto;
 }
 
 .games{
@@ -473,8 +509,9 @@ margin-top:24px;
     justify-content:center;
     align-items:center;
     flex-wrap: wrap;
-    width: 1920px;
-    height: 427px;
+    width: auto;
+    height:427px;
+    padding:10px 200px;
 }
 
 
@@ -513,7 +550,7 @@ margin-top:24px;
   /* Footer style  */
 
   .footer{
-    width: 1920px;
+    width: 0 auto;
     height: 636px;
     background: #0B0223;
     padding-top:100px;
@@ -523,6 +560,7 @@ margin-top:24px;
     display:flex;
     align-items:center;
     justify-content:center; 
+    padding-bottom:20px;
   }
 
 .footer-logo h2{
@@ -545,7 +583,11 @@ margin-top:24px;
 }
 
 .footer-menu-items{
-    text-align: center;
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
+    text-align:center;
+    width:80%;
+    margin: 0 auto;
 }
 
 .footer-menu-items a{
@@ -558,10 +600,13 @@ margin-top:24px;
 }
 
 .social-link{
+    display:grid;
+    grid-template-columns:repeat(6, 1fr);
     text-align: center;
-    margin-top:60px;
-    width: 1920px;
-    height: 100px;
+    padding-top:50px;
+    margin:0 auto;
+    width: 80%;
+    height: auto;
 }
 
 .social-link a{
@@ -586,9 +631,10 @@ margin-top:24px;
 }
 
 .fa-snapchat{
-    font-size:45px;
+    font-size:40px;
     color:#FFFFFF;
 }
+
 .fa-linkedin-in{
     font-size:40px;
     color:#FFFFFF;
@@ -605,7 +651,14 @@ margin-top:24px;
 }
 
 .footer-menu-two {
-    text-align:center;
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:repeat(4, 1fr);
+    text-align: center;
+    padding-top:50px;
+    margin:0 auto;
+    width: 80%;
+    height: auto;
 }
 
 .footer-menu-two a{
